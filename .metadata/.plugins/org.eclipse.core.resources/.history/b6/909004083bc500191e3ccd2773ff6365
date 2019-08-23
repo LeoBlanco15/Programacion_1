@@ -17,7 +17,7 @@ int main(void) {
 
 	if(pideSuma(&suma) == 0)
 	{
-		printf("La suma ess: %d",suma);
+		printf("La suma es: %d",suma);
 	}
 	else {
 		printf("ERROR");
