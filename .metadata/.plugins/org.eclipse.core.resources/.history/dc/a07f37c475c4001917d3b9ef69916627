@@ -1,0 +1,26 @@
+/*
+ ============================================================================
+ Name        : clase1.c
+ Author      : Alessandra
+ Version     :
+ Copyright   : GLP 3
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int valorA;
+	int valorB;
+	int suma;
+
+	scanf("%d",&valorA);
+	scanf("%d",&valorB);
+	suma = valorA + valorB;
+
+	printf("La suma es: %d",suma);
+
+	return 0;
+}
